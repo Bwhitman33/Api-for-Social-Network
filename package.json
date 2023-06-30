@@ -1,0 +1,10 @@
+{
+  "name": "API-For-Social-Network",
+  "description": "backend api produced for a social network",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1"
+  }
+}
