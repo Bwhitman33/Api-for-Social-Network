@@ -41,7 +41,7 @@ const thoughtController = {
                     { new: true })
                     .then((user) =>
                         !user
-                            ? res.status(404).json({ message: 'No thought found containing this ID, but thought was created' })
+                            ? res.status(404).json({ message: 'No User found containing this ID, but thought was created' })
                             : res.json(thought)
     
                     )
