@@ -22,7 +22,6 @@ router
     .delete(deleteUser)
 
 // requests pertaining to a users friendslist
-
 router
     .route('/:userId/friends/:friendId')
     .post(addFriend)
